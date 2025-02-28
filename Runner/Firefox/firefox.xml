@@ -1,0 +1,22 @@
+<suite name="Test Suite">
+    <test name="Cross Browser Tests">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="tests.T001_RegisterUser">
+                <methods>
+                    <include name="testCase1"/>
+                </methods>
+            </class>
+            <class name="tests.T002_loginCorrect">
+                <methods>
+                    <include name="testCase2"/>
+                </methods>
+            </class>
+            <class name="tests.T003_loginInCorrect">
+                <methods>
+                    <include name="testCase3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
